@@ -1,0 +1,126 @@
+h1,
+h2,
+h4,
+h6,
+p {
+  font-family: "Arvo", serif;
+}
+
+p {
+  font-size: 17px;
+}
+
+#form1 {
+  position: absolute;
+  top: 37%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+#input1 {
+  border: 3px solid #32e17c;
+  height: 40px;
+  width: 500px;
+  border-radius: 50px;
+  padding: 0px 10px;
+}
+
+.imgd {
+  width: 450px;
+  height: 50px;
+  margin-left: 500px;
+  margin-top: 150px;
+}
+
+#list {
+  list-style: none;
+  width: 120px;
+  height: 699px;
+  background-color: black;
+}
+#slist {
+  padding-top: 50px;
+  font-size: 20px;
+  color: white;
+}
+.f1 {
+  margin-top: 15px;
+  padding-bottom: 0px;
+}
+.hed1 {
+  margin-left: 45%;
+  margin-top: -740px;
+  font-size: 75px;
+  color: GhostWhite;
+}
+#d1 {
+  margin-left: 400px;
+  width: 55%;
+  margin-right: 80px;
+  color: cornsilk;
+  border-bottom: 2px solid white;
+}
+.Sug {
+  display: flex;
+  text-align: center;
+  width: 85%;
+  margin-left: 15%;
+  white-space: 20px;
+}
+.Sug .sec1 {
+  background-color: GhostWhite;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 18%;
+  height: 230px;
+  border-radius: 10%;
+  font-size: 10px;
+  color: black;
+  margin-right: 100px;
+  opacity: 0.8;
+}
+.Sug2 {
+  display: flex;
+  text-align: center;
+  width: 85%;
+  margin-left: 15%;
+  white-space: 20px;
+}
+.Sug2 .sec2 {
+  background-color: GhostWhite;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 18%;
+  height: 230px;
+  border-radius: 10%;
+  font-size: 10px;
+  color: black;
+  margin-right: 100px;
+  opacity: 0.8;
+}
+
+/*.link{
+	margin-top: 100px;
+}*/
+a {
+  font-size: 20px;
+  color: white;
+}
+a:hover {
+  color: crimson;
+}
+.sb1 {
+  margin-left: -0px;
+}
+.logos {
+  display: flex;
+  margin-left: 5px;
+}
+
+.ama {
+  margin-left: 25px;
+  margin-top: -10px;
+}
+.image {
+  margin-top: 20px;
+}

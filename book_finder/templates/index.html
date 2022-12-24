@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block head %} {{ super() }}
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='extended_beauty.css') }}"
+/>
+{% endblock %} {% block content %}
+<div>
+  <img
+    class="imgd"
+    style="width: 450px; height: 50px; margin-left: 500px; margin-top: 120px"
+    src="{{ url_for('static', filename='images/title_white2.png')}}"
+  />
+</div>
+<form id="form1" action="#" method="post">
+  <!--<p> Search here :</p>-->
+  <p>
+    <input
+      id="input1"
+      type="text"
+      name="userInput"
+      placeholder="Search a Book Name"
+    />
+  </p>
+</form>
+<!--<footer>Contact Us: team@gmail.com</footer>-->
+
+{% endblock %}
